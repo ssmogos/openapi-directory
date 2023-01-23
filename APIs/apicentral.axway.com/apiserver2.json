@@ -65997,7 +65997,7 @@
             "$ref" : "#/components/schemas/management.v1alpha1.GovernanceAgentSpec"
           },
           "status" : {
-            "$ref" : "#/components/schemas/management.v1alpha1.GovernanceAgentStatusNew"
+            "$ref" : "#/components/schemas/management.v1alpha1.GovernanceAgentStatusNew2"
           },
           "agentconfigstatus" : {
             "$ref" : "#/components/schemas/management.v1alpha1.GovernanceAgentAgentconfigstatus"
@@ -66023,7 +66023,7 @@
         "required" : [ "dataplaneType" ],
         "additionalProperties" : false
       },
-      "management.v1alpha1.GovernanceAgentStatusNew" : {
+      "management.v1alpha1.GovernanceAgentStatusNew2" : {
         "type" : "object",
         "properties" : {
           "version" : {
@@ -66032,11 +66032,7 @@
             "maxLength" : 255,
             "pattern" : "^(?!\\s).*(?<!\\s)$"
           },
-          "state" : {
-            "type" : "string",
-            "description" : "Agent status\n * running - Passed all health checks.  Up and running\n * stopped - Agent is not running\n * failed - Failed health checks\n * unhealthy - Agent is running with health check failure\n",
-            "enum" : [ "running", "stopped", "failed", "unhealthy" ]
-          },
+
           "previousState" : {
             "type" : "string",
             "enum" : [ "running", "stopped", "failed", "unhealthy" ]
