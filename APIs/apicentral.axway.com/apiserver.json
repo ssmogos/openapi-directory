@@ -65710,9 +65710,7 @@
         "properties" : {
           "version" : {
             "type" : "string",
-            "description" : "Version name for the agent revision.",
-            "maxLength" : 255,
-            "pattern" : "^(?!\\s).*(?<!\\s)$"
+            "description" : "Version name for the agent revision"
           }
         }
       },
