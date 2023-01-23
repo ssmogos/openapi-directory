@@ -65997,7 +65997,7 @@
             "$ref" : "#/components/schemas/management.v1alpha1.GovernanceAgentSpec"
           },
           "status" : {
-            "$ref" : "#/components/schemas/management.v1alpha1.GovernanceAgentStatus"
+            "$ref" : "#/components/schemas/management.v1alpha1.GovernanceAgentStatusNew"
           },
           "agentconfigstatus" : {
             "$ref" : "#/components/schemas/management.v1alpha1.GovernanceAgentAgentconfigstatus"
@@ -66023,7 +66023,7 @@
         "required" : [ "dataplaneType" ],
         "additionalProperties" : false
       },
-      "management.v1alpha1.GovernanceAgentStatus" : {
+      "management.v1alpha1.GovernanceAgentStatusNew" : {
         "type" : "object",
         "properties" : {
           "version" : {
