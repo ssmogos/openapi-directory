@@ -65722,7 +65722,7 @@
           },
           "state" : {
             "type" : "string",
-            "description" : "Agent status\n * running - Passed all health checks.  Up and running\n * stopped - Agent is not running\n * failed - Failed health checks\n * unhealthy - Agent is running with health check failure\n",
+            "description" : "Agent status:\n * running - Passed all health checks.  Up and running\n * stopped - Agent is not running\n * failed - Failed health checks\n * unhealthy - Agent is running with health check failure\n",
             "enum" : [ "running", "stopped", "failed", "unhealthy" ]
           },
           "previousState" : {
