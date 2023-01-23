@@ -65713,32 +65713,6 @@
             "description" : "Version name for the agent revision.",
             "maxLength" : 255,
             "pattern" : "^(?!\\s).*(?<!\\s)$"
-          },
-          "latestAvailableVersion" : {
-            "type" : "string",
-            "description" : "Latest available version for the agent revision.",
-            "maxLength" : 255,
-            "pattern" : "^(?!\\s).*(?<!\\s)$"
-          },
-
-          "previousState" : {
-            "type" : "string",
-            "enum" : [ "running", "stopped", "failed", "unhealthy" ]
-          },
-          "message" : {
-            "type" : "string",
-            "description" : "A way to communicate details about the current status by the agent"
-          },
-          "lastActivityTime" : {
-            "type" : "string",
-            "description" : "The last updated event timestamp provided by the agent",
-            "format" : "date-time"
-          },
-          "sdkVersion" : {
-            "type" : "string",
-            "description" : "Version name for the SDK revision.",
-            "maxLength" : 255,
-            "pattern" : "^(?!\\s).*(?<!\\s)$"
           }
         }
       },
