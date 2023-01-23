@@ -65722,7 +65722,7 @@
           },
           "state" : {
             "type" : "string",
-            "description" : "Agent status:\n * running - Passed all health checks.  Up and running\n * stopped - Agent is not running\n * failed - Failed health checks\n * unhealthy - Agent is running with health check failure\n",
+            "description" : "Agent status\n * running - Passed all health checks.  Up and running\n * stopped - Agent is not running\n * failed - Failed health checks\n * unhealthy - Agent is running with health check failure\n",
             "enum" : [ "running", "stopped", "failed", "unhealthy" ]
           },
           "previousState" : {
@@ -65893,7 +65893,7 @@
           },
           "state" : {
             "type" : "string",
-            "description" : "Agent status:\n * running - Passed all health checks.  Up and running\n * stopped - Agent is not running\n * failed - Failed health checks\n * unhealthy - Agent is running with health check failure\n",
+            "description" : "Agent status\n * running - Passed all health checks.  Up and running\n * stopped - Agent is not running\n * failed - Failed health checks\n * unhealthy - Agent is running with health check failure\n",
             "enum" : [ "running", "stopped", "failed", "unhealthy" ]
           },
           "previousState" : {
@@ -66034,7 +66034,7 @@
           },
           "state" : {
             "type" : "string",
-            "description" : "Agent status:\n * running - Passed all health checks.  Up and running\n * stopped - Agent is not running\n * failed - Failed health checks\n * unhealthy - Agent is running with health check failure\n",
+            "description" : "Agent status\n * running - Passed all health checks.  Up and running\n * stopped - Agent is not running\n * failed - Failed health checks\n * unhealthy - Agent is running with health check failure\n",
             "enum" : [ "running", "stopped", "failed", "unhealthy" ]
           },
           "previousState" : {
@@ -66075,7 +66075,7 @@
           },
           "configState" : {
             "type" : "string",
-            "description" : "Agent configuration state:\n  * success - Configuration applied successfully\n  * fail - Configuration failed to be applied\n",
+            "description" : "Agent configuration state\n  * success - Configuration applied successfully\n  * fail - Configuration failed to be applied\n",
             "enum" : [ "success", "fail" ]
           }
         }
@@ -69471,7 +69471,7 @@
           },
           "visibility" : {
             "type" : "string",
-            "description" : "The visibility of the Catalog Item:\n * PUBLIC - If Catalog Item is in PUBLISHED state, it will be visible to the entire organization.\n * RESTRICTED - If Catalog Item is in PUBLISHED state, it will be visible to the owning team and teams part of the Catalog Item Access Control List.\n",
+            "description" : "The visibility of the Catalog Item\n * PUBLIC - If Catalog Item is in PUBLISHED state, it will be visible to the entire organization.\n * RESTRICTED - If Catalog Item is in PUBLISHED state, it will be visible to the owning team and teams part of the Catalog Item Access Control List.\n",
             "enum" : [ "RESTRICTED", "PUBLIC" ]
           },
           "version" : {
@@ -69482,7 +69482,7 @@
           },
           "state" : {
             "type" : "string",
-            "description" : "Catalog Item state:\n * UNPUBLISHED - Only developers in the owning team will be able to access the Catalog Item.\n * PUBLISHED - Developers and Consumers in the owning team and any additional team in the ACL will\nbe able to access the Catalog Item.\n",
+            "description" : "Catalog Item state\n * UNPUBLISHED - Only developers in the owning team will be able to access the Catalog Item.\n * PUBLISHED - Developers and Consumers in the owning team and any additional team in the ACL will\nbe able to access the Catalog Item.\n",
             "enum" : [ "UNPUBLISHED", "PUBLISHED" ]
           },
           "status" : {
