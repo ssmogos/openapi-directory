@@ -65648,7 +65648,7 @@
             "$ref" : "#/components/schemas/management.v1alpha1.DiscoveryAgentSpec"
           },
           "status" : {
-            "$ref" : "#/components/schemas/management.v1alpha1.DiscoveryAgentStatus"
+            "$ref" : "#/components/schemas/management.v1alpha1.DiscoveryAgentStatusNew"
           }
         },
         "required" : [ "spec" ]
@@ -65705,7 +65705,7 @@
         "required" : [ "dataplaneType", "config" ],
         "additionalProperties" : false
       },
-      "management.v1alpha1.DiscoveryAgentStatus" : {
+      "management.v1alpha1.DiscoveryAgentStatusNew" : {
         "type" : "object",
         "properties" : {
           "version1" : {
