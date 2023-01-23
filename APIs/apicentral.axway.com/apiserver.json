@@ -65708,7 +65708,7 @@
       "management.v1alpha1.DiscoveryAgentStatus" : {
         "type" : "object",
         "properties" : {
-          "version" : {
+          "version1" : {
             "type" : "string",
             "description" : "Version name for the agent revision"
           }
